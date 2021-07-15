@@ -1,0 +1,546 @@
+.dashboard-container, .wrapper {
+    padding: 0 15px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.my-account-bg {
+    background-color: rgba(0, 0, 0, 0.22);
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+#c-schedule {
+    background-image: url(../../images/backgrounds/schedules-bg.jpg);
+    background-size: cover;
+    display: block;
+}
+
+#c-reports {
+    background-image: url(../../images/backgrounds/reports-bg.jpg);
+    background-size: cover;
+    display: block;
+}
+
+#c-invoices {
+    background-image: url(../../images/backgrounds/invoices-bg.jpg);
+    background-size: cover;
+    display: block;
+}
+
+#c-quotes {
+    background-image: url(../../images/backgrounds/new-quotes-bg.jpg);
+    background-size: cover;
+    display: block;
+}
+
+#m-schedule {
+    background-image: url(../../images/backgrounds/schedules-bg.jpg);
+    background-size: cover;
+    display: block;
+}
+
+#m-reports {
+    background-image: url(../../images/backgrounds/reports-bg.jpg);
+    background-size: cover;
+    display: block;
+}
+
+#m-invoices {
+    background-image: url(../../images/backgrounds/invoices-bg.jpg);
+    background-size: cover;
+    display: block;
+}
+
+#m-quotes {
+    background-image: url(../../images/backgrounds/new-quotes-bg.jpg);
+    background-size: cover;
+    display: block;
+}
+
+#portfolio {
+    background-image: url(../../images/backgrounds/my-portfolio-bg.jpg);
+    background-size: cover;
+    display: block;
+}
+
+#account {
+    background-image: url(../../images/backgrounds/account-bg.jpg);
+    background-size: cover;
+    display: block;
+}
+
+a#account.customer-logo {
+    background-color: #fff;
+    background-size: 50%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#documents {
+    background-image: url(../../images/backgrounds/health-and-safety-bg.jpg);
+    background-size: cover;
+    display: block;
+}
+
+#feedback {
+    background-image: url(../../images/backgrounds/feedback-bg.jpg);
+    background-size: cover;
+    display: block;
+}
+
+.recommendations-section {
+    margin-top: 40px;
+}
+
+h2.recommendations {
+    text-transform: uppercase;
+    color: #515456;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+
+span.reward {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.c-item.prop-photo .ci-avatar {
+    display: block;
+    width: 100%;
+    padding-top: 50%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+    .c-item.prop-photo .ci-avatar.documents {
+        background-color: rgba(232, 237, 242, 0.28);
+        padding-top: 60%;
+    }
+
+#accreditations {
+    background-image: url(../../images/backgrounds/documents/accreditations.jpg);
+}
+
+#coshh {
+    background-image: url(../../images/backgrounds/documents/coshh.jpg);
+}
+
+#company-statements {
+    background-image: url(../../images/backgrounds/documents/company-statements.jpg);
+}
+
+#methods {
+    background-image: url(../../images/backgrounds/documents/methods.jpg);
+}
+
+#policies {
+    background-image: url(../../images/backgrounds/documents/policies.jpg);
+}
+
+#insurance {
+    background-image: url(../../images/backgrounds/documents/insurance.jpg);
+}
+
+#risks {
+    background-image: url(../../images/backgrounds/documents/risks.jpg);
+}
+
+.c-footer .address {
+    margin-bottom: 0;
+}
+
+    .c-footer .address.address-m {
+        margin-bottom: 5px;
+    }
+
+div#data-table-invoice-selection-header {
+    display: none;
+}
+
+#invoices-to-pay div#data-table-invoice-selection-footer {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .dashboard-container {
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 414px) {
+    .dashboard-container {
+        padding: 0;
+    }
+}
+
+#main-calendar div#calendar {
+    min-height: 900px;
+}
+/*
+#calendar .fc-toolbar {
+    height: 60px;
+    background: #b3c0cd;
+}
+    */
+#calendar .fc-toolbar h2 {
+    color: #4c5865;
+}
+
+.fc-toolbar.fc-header-toolbar {
+    margin-bottom: 0;
+}
+
+.fc-button {
+    padding: .2em .7em .3em;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.fc-button-primary:disabled {
+    border-radius: 40px;
+}
+
+div#eventsToday {
+    margin-left: -30px;
+}
+
+    div#eventsToday .fc-toolbar.fc-header-toolbar {
+        background: #c1cad4a6;
+        height: 60px;
+    }
+
+    div#eventsToday .fc-toolbar h2 {
+        font-size: 1.35em;
+        font-weight: 400;
+        color: #2c3e50;
+        margin: 0;
+    }
+
+#eventsToday .fc-view-container {
+    padding: 15px;
+}
+
+#eventsToday .fc-scroller {
+    height: 100% !important;
+}
+
+#main-calendar .fc-view, .fc-view > table,
+#eventsToday .fc-view, .fc-view > table {
+    border: none;
+}
+
+#calendar td.fc-widget-header,
+#eventsToday td.fc-widget-header {
+    background: #e7ebef;
+}
+
+#calendar .fc-list-table td {
+    padding: 3px 20px;
+}
+
+#eventsToday .fc-list-table td {
+    padding: 3px 15px;
+}
+
+.weekly-dark-blue .not-being-used {
+    background-color: #4db4db !important;
+}
+
+.fc-event.blue-icon {
+    background-color: #4db4db !important;
+    border-color: #4db4db !important;
+}
+
+.fc-event.green-icon {
+    background-color: #4caf50 !important;
+    border-color: #4caf50 !important;
+}
+
+.fc-event.red-icon {
+    background-color: #ef5350 !important;
+    border-color: #ef5350 !important;
+}
+
+.fc-event.yellow-icon {
+    background-color: #e4b144 !important;
+    border-color: #e4b144 !important;
+}
+
+.fc-event.grey-icon {
+    background-color: grey !important;
+    border-color: grey !important;
+}
+
+.fc-event.purple-icon {
+    background-color: #265076 !important;
+    border-color: #265076 !important;
+}
+
+.fc-event.Weekly {
+    background-color: #265076 !important;
+    border-color: #265076 !important;
+}
+
+.fc-event.Bi-Monthly {
+    background-color: #4CAF50 !important;
+    border-color: #4CAF50 !important;
+}
+
+.fc-event.Monthly {
+    background-color: #8B6B4E !important;
+    border-color: #8B6B4E !important;
+}
+
+.fc-event.Other {
+    background-color: #e4b144 !important;
+    border-color: #e4b144 !important;
+}
+
+.fc-event.Custom {
+    background-color: #e4b144 !important;
+    border-color: #e4b144 !important;
+}
+
+.fc-event.Maintenance {
+    background-color: #607d8b !important;
+    border-color: #607d8b !important;
+}
+
+.fc-event
+
+#calendar .fc-toolbar {
+    height: 64px;
+    background: #c1cad4;
+}
+
+.fc-toolbar.fc-header-toolbar {
+    margin-bottom: 0;
+}
+
+#calendar .fc-toolbar .fc-center {
+    margin-top: 0;
+}
+
+#calendar .fc-toolbar h2 {
+    margin: 0px;
+    color: #4c5865;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.dt-container > ul > li {
+    min-width: auto;
+}
+
+.dt-container ul.lgi-attrs.text-right span {
+    padding: 0px 2px;
+}
+
+@media only screen and (max-width : 767px) {
+
+    section#content {
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+
+    .dt-container ul.lgi-attrs.text-right {
+        top: 12px;
+        max-width: 186px;
+        right: 16px;
+    }
+}
+
+@media (max-width: 414px) {
+    h2.recommendations {
+        margin-top: 20px;
+    }
+
+    .dashboard-container, .wrapper {
+        padding: 0 15px;
+    }
+
+    .lgi-attrs > li {
+        min-width: auto;
+        display: flex;
+        white-space: nowrap;
+        text-align: left;
+    }
+
+
+
+    #calendar .fc-toolbar h2 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .dashboard-container, .wrapper {
+        padding: 0px;
+    }
+
+    .t-monthly.text {
+        color: #8B6B4E !important;
+        font-size: 12px;
+    }
+
+    .t-fortnightly.text {
+        color: #4CAF50 !important;
+        font-size: 12px;
+    }
+
+    .t-weekly.text {
+        color: #265076 !important;
+        font-size: 12px;
+    }
+
+    .t-other.text {
+        color: #e4b144 !important;
+        font-size: 12px;
+    }
+
+
+
+
+    .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+        padding: 5px;
+    }
+
+
+    .dt-container ul.lgi-attrs.text-right {
+        top: 12px;
+        max-width: 186px;
+        right: 16px;
+    }
+
+    .actionBar {
+        width: 46%;
+    }
+
+    .c-quote-offered {
+        font-size: 12px;
+    }
+
+    .c-quote-accepted {
+        font-size: 12px;
+    }
+
+    .c-quote-rejected {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 414px) {
+    .form-container {
+        padding-bottom: 60px;
+    }
+}
+
+@media (max-width: 320px) {
+    .dt-container ul.lgi-attrs.text-right {
+        top: 12px;
+        max-width: 154px;
+        right: 14px;
+    }
+
+    .blue-icon {
+        color: #4db4db;
+        font-size: 10px;
+    }
+
+    .green-icon {
+        color: #4caf50;
+        font-size: 10px;
+    }
+
+    .purple-icon {
+        color: #265076;
+        font-size: 10px;
+    }
+
+    .red-icon {
+        color: #ef5350;
+        font-size: 10px;
+    }
+
+    .lgi-attrs > li {
+        font-size: 10px;
+    }
+
+    .actionBar {
+        width: 52%;
+    }
+
+    .c-quote-offered {
+        font-size: 10px;
+    }
+
+    .c-quote-accepted {
+        font-size: 10px;
+    }
+
+    .c-quote-rejected {
+        font-size: 10px;
+    }
+}
+/*****/
+section#content {
+    padding: 40px 15px 15px 15px;
+    overflow: hidden;
+}
+
+.recommendations-section {
+    margin-top: 20px;
+}
+
+.card#c-schedule {
+    margin-bottom: 20px;
+}
+
+.card#c-reports {
+    margin-bottom: 20px;
+}
+
+.card#m-reports {
+    margin-bottom: 20px;
+}
+
+.card#m-schedule {
+    margin-bottom: 20px;
+}
+
+.card#portfolio {
+    margin-bottom: 20px;
+}
+
+.card#account {
+    margin-bottom: 10px;
+}
+
+.card#documents {
+    margin-bottom: 10px;
+}
+
+.card#feedback {
+    margin-bottom: 10px;
+}
+
+.card#m-quotes {
+    margin-bottom: 10px;
+}
+
+.card#m-invoices {
+    margin-bottom: 10px;
+}
+
+.card#c-invoices {
+    margin-bottom: 10px;
+}
+
+.card#c-quotes {
+    margin-bottom: 10px;
+}
